@@ -9,10 +9,12 @@ adaptive_IC_\*.py - These solve the same PDE, but with variations to the initial
 adaptive_v_\*.py - These use the original initial condition, but vary the value of v in the PDE.
 
 
-### Use FDM to obtain a ground truth solution to compare against with PINNs.
+### Use FDM to obtain a ground truth solution to compare against with PINNs:
 
 fdm_main_v01.py - v=0.01
 
 fdm_main_v001.py - v=0.001
 
-The two provided use a viscosity of 0.01, or 0.001, but this can be easily changed. Note the value used in the PINNs examples is v=0.01/pi.
+(Note: The two provided use a viscosity of 0.01, or 0.001, but this can be easily changed. Note the value used in the PINNs examples is v=0.01/pi.)
+
+### \npz - This contains ground truth solution files
